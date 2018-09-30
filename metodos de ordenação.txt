@@ -1,0 +1,25 @@
+#buble sort -
+compara o elemento anterior com o proximo elemento 
+da lista, se o proximo elemento for menor que o atual ele 
+troca de posição(n<(n-1))
+
+insert sort-
+Se o proximo elemento for maior que o atual ele 
+efetua a troca, e compara o elemento trocado com todos os
+anteriores a ele.
+(n<n(n-1))
+
+selection sort -
+compara o elemento atual com todos os elementos da lista
+se o proximo elemento for menor que o atual ele troca 
+de posição.
+(n<n)
+
+shell sort
+divide o numero de elementos(exemplo 8) por 8/2 = 4, então 
+compara o primeiro elemento com o o quinto 
+elemento da lista(n<n+4)então ele efetua a troca, ao chegar
+no final do vetor é feita novamente a divisão 4/2=2, então 
+a comparação sera de(n<n+2), e assim por diante até o 
+vetor estar ordenado.
+  
